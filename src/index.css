@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&family=Roboto+Slab:wght@600;700&display=swap');
+body{
+    font-family: 'Roboto Slab', serif;
+}
+h1,h2{
+       font-family: 'Montserrat', sans-serif;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.welcome-animation {
+   
+
+  animation: fadeIn 1s ease-in-out;
+}
+
+
+
+.even {
+  background-color: #f2b2e8; /* Example background color for even elements */
+}
+
+.odd {
+  background-color: #b6b9ba; /* Example background color for odd elements */
+}
